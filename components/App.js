@@ -38,7 +38,9 @@ export default class App extends React.Component {
 
   render() {
     return (
-      <FruitBasket fruit={this.state.fruit} filters={this.state.filters}
+      <FruitBasket
+        fruit={this.state.fruit}
+        filters={this.state.filters}
         currentFilter={this.state.currentFilter}
         updateFilterCallback={this.updateFilter} />
     );
